@@ -1,1 +1,9 @@
-netease.loveiu.top
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://netease.loveiu.top/:match*"
+    }
+  ]
+}
